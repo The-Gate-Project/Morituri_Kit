@@ -1,8 +1,9 @@
 Baldurs Gate II: SoA/ToB 
-Morituri Kit version 3
+Morituri Kit version 4.x
 By Aroc (aroc@otenet.gr)
 French version (the one you are using) by Deratiseur (the_deratiseur@hotmail.com)
-References bug free by Deratiseur. (ready for BGT :) )
+References fix by Deratiseur. (ready for BGT :) )
+Compatibility with the EE games added by deratiseur (again :) )
 
 TABLE OF CONTENTS:
 1.About
@@ -16,10 +17,12 @@ TABLE OF CONTENTS:
 9.Legal informations
 
 
+
 1. ABOUT
 
 This kit encapsules my personal understanding of a warrior dedicated in upholding  good and right. I always believed that the kensai is the perfect type of fighter and indeed there are legends inspired by kensais able to cut through solid steel cannons and of course we all have heard stories about Miyamoto Musashi...
 A warrior able to perform such feats must be strong in both body and spirit, able to withstand physical as well as elemental and  magical attacks. On the other hand his/her devotion to the Light must provide for some exceptional abilities in the battle against Evil. Taking all these in consideration I have created the Morituri kit, the incarnation of the warrior who fights almost empty handed based not on powerfull armour or  magic potions but on unfolding his/her inner qualities through combat experience. It is true a Morituri fights like there is no tomorrow constantly flirting with the possibility of Death but keep him/her alive long enough and your rewards will be great indeed.  
+
 
 
 2. INSTALLATION 
@@ -38,22 +41,29 @@ You can uninstall any component(s) later by re-running "Setup-morituri.exe".
 
 3. MORITURI KIT DESCRIPTION
 
-One of the most unique melee warrior classes Morituri are fighters who have  abandoned the need to use armour or any magic item in order to enhance their capabilities. Their hard and longlasting training has given them the ability to combine the specific skills and feats of the lethal Kensai, the enduring Barbarian,the battlerager Berserker and the lighting fast Monk. Morituri fight toe to toe with their enemies never retreat always seeking victory or death.Although they lack the support of an armour or any magic item at all, their superhuman physical abilities, the perfect control of their Ki energy plus their unstopable determination makes them formidable adverseries and worthy upholders of right and justice in the entire Faerun.Morituri who manage to survive long enough to reach their full potential bear the honouring title of the LightBringer,having become a true force of Right and Justice.Presently only humans are being accepted as candidates in the Order of the Morituri.
+One of the most unique melee warrior classes Morituri are fighters who have abandoned the need to use armour or any magic item in order to enhance their capabilities. Their hard and longlasting training has given them the ability to combine the specific skills and feats of the lethal Kensai, the enduring Barbarian,the battlerager Berserker and the lighting fast Monk. Morituri fight toe to toe with their enemies never retreat always seeking victory or death.Although they lack the support of an armour or any magic item at all, their superhuman physical abilities, the perfect control of their Ki energy plus their unstopable determination makes them formidable adverseries and worthy upholders of right and justice in the entire Faerun.Morituri who manage to survive long enough to reach their full potential bear the honouring title of the LightBringer,having become a true force of Right and Justice.Presently only humans are being accepted as candidates in the Order of the Morituri.
 
 Advantages:
 -Immune to backstab, +1 to str/dex/con on character creation.
--Movement speed, armour class and saving throws improvements according to combat experience.*
--Gains Armor of Light ability according to his/her combat experience.**
--Gains Heaven's Touch by becoming the LightBringer ***
 -Bonus +1 to hit/damage for every 3 levels.
 -Bonus -1 to speed factor for every 4 levels.
--Physical, elemental and  magic resistance improvements per level.****
+-Bonus -2 AC and +2 movement speed for every 7 levels.
+-Bonus -2 saving throws at lvl 7 and every 7 thereafter (max -8).
+-Physical and elemental resistances 1% per level.
+-Magic resistance 2% per level (max 78%).
+-"Armor of Light" every 7 lvls (1 use at lvl 1).
+-"Heaven's Touch" at lvl 35 and every 5 levels thereafter.
 
--Apprentice: immune to all diseases,and cannot be slowed or hasted.*****
--Expert: Immune to charm and poison.
--Spartian: Immune to fear.
--Morituri: Permanent protection from evil, +1  str/dex/con bonus, regenerate 1hp/sec.
--LightBringer: Immune to stun & blindness, +1 bonus attack per round, +1  str/dex/con bonus,regenerate 2hp/sec.
+Titles
+-Apprentice (level 7): immune to all diseases, and cannot be slowed or hasted.
+-Expert (level 14): immune to charm and poison.
+-Spartian (level 21): immune to fear.
+-Morituri (level 28): immune to hold, permanent protection from evil, +1 str/dex/con bonus, regenerate 1hp/sec.
+-LightBringer (level 35): iImmune to stun & blindness, +1 bonus attack per round, +1 str/dex/con bonus,regenerate 2hp/sec.
+
+Armor of Light: a combination of Kai and Berserker enrage Armour of Light provides maximum damage for the first 6 seconds plus +2 to hit/damage, -2 to Armour Class, , immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points, +4 movement modifier,-2 attack speed  for 60 seconds. After that the Morituri becomes fatigued  for 30 seconds: -4 to hit/damage, +4 penalty to AC, -15 hit points,  -8  movement modifier,+4 attack speed.
+
+Heaven's Touch: a combination of  Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle. 
 
 Disadvantages:
 -May not use missile weapons or bows.
@@ -62,12 +72,6 @@ Disadvantages:
 -Cannot stray away from the teachings of the Order.
 -Must be of good alignment.
 -Humans only.
-
-*-2AC, -2 movement speed, -2 saving throws every 7 levels (saving throws max out at -8 in the Morituri level).
-** A combination of Kai and Berserker enrage Armour of Light provides maximum damage for the first 6 seconds plus +2 to hit/damage, -2 to Armour Class, , immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points, +4 movement modifier,-2 attack speed  for 60 seconds. After that the Morituri becomes fatigued  for 30 seconds: -4 to hit/damage, +4 penalty to AC, -15 hit points,  -8  movement modifier,+4 attack speed.
-*** Heaven's Touch: a combination of  Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle. 
-**** Resistance to missile,crushing,piercing,slashing,fire,cold,acid,electricity 1% per level + resistance to magic 2% per level up to level 39.
-***** Apprentice: level 7,  Expert: level 14, Spartian: level 21, Morituri: level 28, LightBringer: level 35. 
 
 
             
@@ -88,14 +92,33 @@ Version 3
 
 	*Armour of Light fatigue part  decreases  THACO,Armour Class by 4 points each  instead of 2 points in the  initial release, movement rate by 8  and attack speed by 4 points. Armour of Light itself increases  movement rate by 4 points, ,reduces attack speed by 2,deals  maximum damage for the first 6 seconds instead of 10 in the initial release and gives total immunity to any form of death magic. Many of  the kit's users asked for a tune down of this ability so I really didn't have any other choise but to comply!
 
-                  *The extraordinary(by many  users)  immunities on level drain,maze and imprisonment have being removed. With 5 Armour of Lights in the Morituri level you should be able to face any level drain,maze or imprisonment threat.(TIP: to increase your immunity on the previous nasty moments use your AoL additionally, thus when you have reached the fatigue state or some moments before,  use again the ability to have 60 more seconds of the immunities provided and  decrease the fatigue's state penalties at the same time!). 
+C*The extraordinary(by many  users)  immunities on level drain,maze and imprisonment have being removed. With 5 Armour of Lights in the Morituri level you should be able to face any level drain,maze or imprisonment threat.(TIP: to increase your immunity on the previous nasty moments use your AoL additionally, thus when you have reached the fatigue state or some moments before,  use again the ability to have 60 more seconds of the immunities provided and  decrease the fatigue's state penalties at the same time!). 
 
                    * A more interactive PC: at levels 1,7,14,21,28,35 where the Morituri takes his/her combat titles all the bonuses appear above his/her head.
                       Also ,for TOB holders only, every time that the Morituri uses his/her innate abilities Armour of Light and Heaven's Touch small phrases emerge above his/her head expressing  his/her thoughts for the occasion.       
                   
                     *Remove the globe effect in the AoL ability ala Cloak of Mirroring. The light effect is more intense now!
                     
-                    *Upgraded to WeiDU 149, thank's Wes!     
+                    *Upgraded to WeiDU 149, thank's Wes!  
+
+Version 3.x (By Deratiseur)
+                   * Trayfied for translations.
+                   * Added French translation.
+                   * Added sub-component, can now be installed as a warrior or as a paladin.
+
+Version 4 (By Deratiseur)
+                   * Compatibility with the EE games added.
+                   * French translation lightly revised.
+                   
+Version 5 (By Deratiseur)
+                   * Simplified text.
+                   * add "immune to hold" at lvl 28 in the text. The hability was present but not writed.
+                   * now ready for lvl 50.
+                   * add another option to install as warrior AND as paladin.
+                   * The paladin version now have correct "Detect evil" and "Protection from evil" 1x / lvl
+                   * Fix the first "bonus to STR, DEX and CON": it wasn't cumulative. (the second from lvl 35 is cumulative)
+                   * the scrip no longer use Dplayer2 or 3: it now use the character script. (less use of the engine, less lags on mega installs)
+
 
 
 5. FUTURE  CHANGES  
@@ -105,6 +128,7 @@ Version 3
 * Addition of the Disarm and Knockdown feats as in 3th  Edition  of DaD rules.
 
 * Inner Sight: a special ability that will enable the Morituri to know his/her enemies stats: Level/Class/Armour Class/Hit points/THACO/Number of Attacks/Immunities.
+
 
 
 6.COPYRIGHT
@@ -126,9 +150,9 @@ And of course Westley Weimer for his magnificent WeiDU innovation  tool.
 
 8.LINKS
 
-http://www.weidu.org                                         Home of WeiDU and Weimer mod's
+http://www.weidu.org                                       Home of WeiDU and Weimer mod's
 
-http://www.forgottenwars.net                           Home of Kelsey,Oversight, Ashes of Embers,Flirt Packs,Banter Packs  and  other fine projects
+http://www.forgottenwars.net                               Home of Kelsey,Oversight, Ashes of Embers,Flirt Packs,Banter Packs  and  other fine projects
 
 http://www.fwstudios.net                                   Home of many independent BG2   mod projects
 

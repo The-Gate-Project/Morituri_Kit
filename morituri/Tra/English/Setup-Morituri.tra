@@ -5,18 +5,25 @@
 
 Advantages:
 -Immune to backstab, +1 to str/dex/con on character creation.
--Movement speed, armour class and saving throws improvements according to combat experience.
--Gains Armor of Light ability according to his/her combat experience(Armour of Light:maximum damage for the first 6 seconds plus +2 to THACO, -2 attack speed, -2AC, +4 movement modifier and immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points for 60 seconds. After that the Morituri becomes fatigued: -4 to THACO, +4 penalty to AC, -8 movement modifier, -4 attack speed, -15 hit points for 30 seconds).
--Gains Heaven's Touch by becoming the LightBringer(Heaven's Touch :a combination of Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle).
 -Bonus +1 to hit/damage for every 3 levels.
 -Bonus -1 to speed factor for every 4 levels.
--Physical, elemental and  magic resistance improvements per level.
+-Bonus -2 AC and +2 movement speed for every 7 levels.
+-Bonus -2 saving throws at lvl 7 and every 7 thereafter (max -8).
+-Physical and elemental resistances 1% per level.
+-Magic resistance 2% per level (max 78%).
+-"Armor of Light" every 7 lvls (1 use at lvl 1).
+-"Heaven's Touch" at lvl 35 and every 5 levels thereafter.
 
--Apprentice: immune to all diseases,and cannot be slowed or hasted.
--Expert: Immune to charm and poison.
--Spartian: Immune to fear.
--Morituri: Permanent protection from evil,+1 str/dex/con bonus,regenerate 1hp/sec.  
--LightBringer: Immune to stun & blindness, +1 bonus attack per round,+1 str/dex/con bonus,regenerate 2hp/sec.
+Titles :
+-Apprentice (level 7): immune to all diseases, and cannot be slowed or hasted.
+-Expert (level 14): immune to charm and poison.
+-Spartian (level 21): immune to fear.
+-Morituri (level 28): immune to hold, permanent protection from evil, +1 str/dex/con bonus, regenerate 1hp/sec.
+-LightBringer (level 35): iImmune to stun & blindness, +1 bonus attack per round, +1 str/dex/con bonus,regenerate 2hp/sec.
+
+Armor of Light: a combination of Kai and Berserker enrage Armour of Light provides maximum damage for the first 6 seconds plus +2 to hit/damage, -2 to Armour Class, , immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points, +4 movement modifier,-2 attack speed  for 60 seconds. After that the Morituri becomes fatigued  for 30 seconds: -4 to hit/damage, +4 penalty to AC, -15 hit points,  -8  movement modifier,+4 attack speed.
+
+Heaven's Touch: a combination of  Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle. 
 
 Disadvantages:
 -May not use missile weapons or bows.
@@ -26,28 +33,36 @@ Disadvantages:
 -Cannot stray away from the teachings of the Order.
 -Must be human.~
 
-@3 = ~One of the most unique melee warrior classes Morituri are fighters who have abandoned the need to use armour or any magic item in order to enhance their capabilities. Their hard and longlasting training has given them the ability to combine the specific skills and feats of the lethal Kensai, the enduring Barbarian,the battlerager Berserker and the lighting fast Monk. Morituri fight toe to toe with their enemies never retreat always seeking victory or death.Although they lack the support of an armour or any magic item at all, their superhuman physical abilities, the perfect control of their Ki energy plus their unstopable determination makes them formidable adverseries and worthy upholders of right and justice in the entire Faerun.Morituri who manage to survive long enough to reach their full potential bear the honouring title of the LightBringer,having become a true force of Right and Justice.Presently only humans are being accepted as candidates in the Order of the Morituri.
+@3 = ~One of the most unique melee warrior classes Morituri are fighters who have abandoned the need to use armour or any magic item in order to enhance their capabilities. Their hard and longlasting training has given them the ability to combine the specific skills and feats of the lethal Kensai, the enduring Barbarian,the battlerager Berserker and the lighting fast Monk. Morituri fight toe to toe with their enemies never retreat always seeking victory or death.Although they lack the support of an armour or any magic item at all, their superhuman physical abilities, the perfect control of their Ki energy plus their unstopable determination makes them formidable adverseries and worthy upholders of right and justice in the entire Faerun.Morituri who manage to survive long enough to reach their full potential bear the honouring title of the LightBringer,having become a true force of Right and Justice.
 
 Advantages:
--May  become proficient up to grand mastery with weapons that  comply with the Way of the Sword.
+-May become proficient up to grand mastery with weapons that comply with the Way of the Sword.
 -Immune to backstab, +1 to str/dex/con on character creation.
--Movement speed, armour class and saving throws improvements according to combat experience.
--Gains Armor of Light ability according to his/her combat experience(Armour of Light:maximum damage for the first 6 seconds plus +2 to THACO, -2 attack speed, -2AC, +4 movement modifier and immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points for 60 seconds. After that the Morituri becomes fatigued: -4 to THACO, +4 penalty to AC, -8 movement modifier, -4 attack speed, -15 hit points for 30 seconds).
--Gains Heaven's Touch by becoming the LightBringer(Heaven's Touch :a combination of Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle).
 -Bonus +1 to hit/damage for every 3 levels.
 -Bonus -1 to speed factor for every 4 levels.
--Physical, elemental and  magic resistance improvements per level.
+-Bonus -2 AC and +2 movement speed for every 7 levels.
+-Bonus -2 saving throws at lvl 7 and every 7 thereafter (max -8).
+-Physical and elemental resistances 1% per level.
+-Magic resistance 2% per level (max 78%).
+-"Armor of Light" every 7 lvls (1 use at lvl 1).
+-"Heaven's Touch" at lvl 35 and every 5 levels thereafter.
 
--Apprentice: immune to all diseases,and cannot be slowed or hasted.
--Expert: Immune to charm and poison.
--Spartian: Immune to fear.
--Morituri: Permanent protection from evil,+1 str/dex/con bonus,regenerate 1hp/sec.  
--LightBringer: Immune to stun & blindness, +1 bonus attack per round,+1 str/dex/con bonus,regenerate 2hp/sec.
+Titles :
+-Apprentice (level 7): immune to all diseases, and cannot be slowed or hasted.
+-Expert (level 14): immune to charm and poison.
+-Spartian (level 21): immune to fear.
+-Morituri (level 28): immune to hold, permanent protection from evil, +1 str/dex/con bonus, regenerate 1hp/sec.
+-LightBringer (level 35): iImmune to stun & blindness, +1 bonus attack per round, +1 str/dex/con bonus,regenerate 2hp/sec.
+
+Armor of Light: a combination of Kai and Berserker enrage Armour of Light provides maximum damage for the first 6 seconds plus +2 to hit/damage, -2 to Armour Class, , immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points, +4 movement modifier,-2 attack speed  for 60 seconds. After that the Morituri becomes fatigued  for 30 seconds: -4 to hit/damage, +4 penalty to AC, -15 hit points,  -8  movement modifier,+4 attack speed.
+
+Heaven's Touch: a combination of  Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle. 
 
 Disadvantages:
--Can only mastering weapons that comply with the Way of the Sword.
 -May not use missile weapons or bows.
 -May not use any magic items except weapons and boots.
+-May  become proficient up to grand mastery only with weapons that  comply with the Way of the Sword.
+-Cannot stray away from the teachings of the Order.
 -May not use Lay on Hands ability.
 -May not cast priest spells.
 -May not turn undead.~
@@ -90,8 +105,8 @@ Elemental resistance 7%
 Physical resistance 7%
 Magic resistance 14%
 Movement speed +4
-Saving throws -2
 Armour class -4
+Saving throws -2
 Gains Armour of Light~
 
 @27 = ~EXPERT
@@ -100,8 +115,8 @@ Elemental resistance 14%
 Physical resistance 14%
 Magic resistance 28%
 Movement speed +6
-Saving throws -4
 Armour class -6
+Saving throws -4
 Gains Armour of Light~
 
 @28 = ~SPARTIAN
@@ -110,11 +125,12 @@ Elemental resistance 21%
 Physical resistance 21%
 Magic resistance 42%
 Movement speed +8
-Saving throws -6
 Armour class -8
+Saving throws -6
 Gains Armour of Light~
 
 @29 = ~MORITURI
+Immune to hold
 Permanent protection from evil
 Str/Dex/Con +1 bonus
 Regeneration 1hp/sec
@@ -122,21 +138,21 @@ Elemental resistance 28%
 Physical resistance 28%
 Magic resistance 56%
 Movement speed +10
-Saving throws -8
 Armour class -10
+Saving throws -8
 Gains Armour of Light~
 
 @30 = ~LIGHTBRINGER
 Immune to stun & blindness
 Str/Dex/Con +1 bonus
 +1 bonus attack/round
-Reganeration 2hp/sec
+Regeneration 2hp/sec
 Elemental resistance 35%
 Physical resistance 35%
-Magic resistance 75%
+Magic resistance 70%
 Movement speed +12
-Saving throws -8
 Armour class -12
+Saving throws -8
 Gains Heaven's Touch~
 
 @31 = ~Eternal Father shield me against Evil~
@@ -150,3 +166,5 @@ Gains Heaven's Touch~
 @35 = ~Install the Morituri as a warrior~
 
 @36 = ~Install the Morituri as a paladin~
+
+@37 = ~Install both~

@@ -1,0 +1,73 @@
+IF
+Global("Mlevel1","LOCALS",1)
+THEN
+RESPONSE #100
+SetGlobal("Mlevel1","LOCALS",0)
+DisplayStringHead(Myself, @25)
+END
+IF
+Global("Mlevel7","LOCALS",1)
+THEN
+RESPONSE #100
+SetGlobal("Mlevel7","LOCALS",0)
+DisplayStringHead(Myself, @26)
+END
+IF
+Global("Mlevel14","LOCALS",1)
+THEN
+RESPONSE #100
+SetGlobal("Mlevel14","LOCALS",0)
+DisplayStringHead(Myself, @27)
+END
+IF
+Global("Mlevel21","LOCALS",1)
+THEN
+RESPONSE #100
+SetGlobal("Mlevel21","LOCALS",0)
+DisplayStringHead(Myself,@28)
+END
+IF
+Global("Mlevel28","LOCALS",1)
+THEN
+RESPONSE #100
+SetGlobal("Mlevel28","LOCALS",0)
+DisplayStringHead(Myself, @29)
+END
+IF
+Global("Mlevel35","LOCALS",1)
+THEN
+RESPONSE #100
+SetGlobal("Mlevel35","LOCALS",0)
+DisplayStringHead(Myself, @30)
+END
+
+
+IF
+Global("11111","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @31)
+SetGlobal("11111","LOCALS",0)
+END
+IF
+Global("22222","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @32)
+SetGlobal("22222","LOCALS",0)
+END
+IF
+Global("44444","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @33)
+SetGlobal("44444","LOCALS",0)
+END
+IF
+Global("33333","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @34)
+SetGlobal("33333","LOCALS",0)
+END
+

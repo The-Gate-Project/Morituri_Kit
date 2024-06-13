@@ -1,92 +1,87 @@
 @0 = ~Kit du Morituri, version 3~
+@09 = ~morituri~
 @1 = ~Morituri~
 
-@2 = ~Les uniques classes de combattants ultimes de mêlée, les Morituri, sont les guerriers qui ont abandonné leur besoin d'armure ou d'objets magiques pour optimiser leurs capacités. Leur long et dur entrainement leur a donné la capacité de combiner les compétences et dons du mortel kensaï, de l'endurant barbare, de l'enragé Berserker et du rapide Moine. Les morituri tiennent tête à leurs ennemis sans jamais battre en retraite, ne cherchant que la victoire ou la mort. Bien qu'il leur manque le support d'une armure ou d'objets magiques, leurs extraordinaires capacités physiques, leur contrôle parfait de l'énergie ki et leur détermination inébranlable font d'eux de formidables adversaires et les dignes représentants du droit et de la justice sur Féérune.
-Les Morituri qui réussissent à survivre assez longtemps pour développer leur plein potentiel portent le titre honorifique de Porteur de lumière, devenant ainsi une vraie force de droit et de justice.
-Actuellement, seuls les humains peuvent être acceptés comme candidats dans l'Ordre des Morituri.
-
-
-Avantages :
-- Immunité aux attaques sournoises, +1 à la force, à la dextérité et à la constitution lors de la création.
-- Augmentation de la vitesse de déplacement, de la classe d'armure, et des jets de sauvegarde en fonction de l'expérience du combat.
-- Gagne l'habilité "Armure de lumière" en accord avec son expérience du combat
-- Gagne le Toucher du paradis en devenant le Porteur de lumière 
-- Bonus de +1 au toucher et aux dégâts tous les 3 niveaux.
-- Bonus de -1 au facteur de vitesse tous les 3 niveaux.
-- Augmentation des résistances physiques, élémentaires et magiques à chaque niveau.
-
-Titres :
--Apprenti (Niveau 7) : Immunité aux maladies, et ne peut pas être ralenti ou sous l'effet de la Hâte.
--Expert (Niveau 14) : Immunité aux charmes et aux poisons.
--Spartiate (Niveau 21) : Immunité à la peur.
--Morituri (Niveau 28) : Protection permanente contre le mal, bonus de +1 à la force, à la dextérité et à la constitution, régénère 1pv/sec.  
--Porteur de lumière (Niveau 35) : Immunisé contre l'étourdissement et l'aveuglement, +1 attaque par round , bonus de +1 à la force, à la dextérité et à la constitution, régénère 2pv/sec.
-
-
-Armure de lumière :
-Dégâts maximaux pendant les 6 premières secondes, +2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 au déplacement, +15 points de vie et immunité à la mort magique, au charme, à l'immobilisation, à la peur, au sort 'Labyrinthe', 'Emprisonnement', 'Etourdissement', 'Sommeil', au drain de niveau pendant 60 secondes.
-Quand l'armure cesse son effet le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 au déplacement, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.
-
-Toucher du paradis :
-Une combinaison des sorts 'Guérison de masse', 'Rayon de soleil', 'Beauté de la nature', 'Coup de vent' et 'Protection contre le Mal' sur 3 mètres.
-
-
-
-Désavantages :
--Ne peut pas utiliser d'armes à distance.
--Ne peut utiliser aucun objet magique à part armes et bottes.
--Ne peut acquérir la grande maitrise que dans les armes qui se conforment à la voie de l'épée.
--Doit être d'alignement bon.
--Ne peut pas s'écarter des enseignements de l'Ordre.
--Doit être humain.~
-
-@3 = ~Les plus uniques classes de combattants de mêlée, les Morituri, sont les guerriers qui ont abandonné leur besoin d'armure ou d'objets magiques pour optimiser leurs capacités. Leur long et dur entrainement leur a donné la capacité de combiner les compétences et dons du mortel kensaï, de l'endurant barbare, de l'enragé Berserker et de rapide Moine. Les morituri tiennent tête à leurs ennemis sans jamais retraiter, ne cherchant que la victoire ou la mort. Bien qu'il leur manque le support d'une armure ou d'objets magique, leurs super capacités physiques, leur contrôle parfait de l'énergie ki et leur détermination inébranlable font d'eux de formidables adversaires et les dignes représentant du droit et de la justice sur Faerun.
+@2 = ~Les plus exceptionnels combattants de mêlée, les Morituris, sont les guerriers qui ont abandonné leur besoin d'armure ou d'objets magiques pour optimiser leurs capacités martiales. Leur long et dur entraînement leur a donné la capacité de combiner les compétences et dons du mortel kensaï, de l'endurant barbare, de l'enragé Berserker et du rapide Moine. Les morituri tiennent tête à leurs ennemis sans jamais reculer, n'aspirant qu'à la victoire ou la mort. Bien qu'il leur manque le support d'une armure ou d'objets magique, leurs grandes capacités physiques, leur contrôle parfait de l'énergie ki et leur détermination inébranlable font d'eux de formidables adversaires et de dignes représentant du droit et de la justice sur Faërun.
 Les Morituri qui réussissent à survivre assez longtemps pour développer leur plein potentiel portent le titre honorifique de Porteur de lumière, devenant ainsi une vraie force de droit et de justice.
 Actuellement seul les humains peuvent être acceptés comme candidats dans l'Ordre des Morituri.
 
 Avantages :
--Peux acquérir la grande maitrise dans les armes qui se conforment à La voie de l'épée.
--Immunité aux attaques sournoises, +1 à la force, la dextérité, l'endurance à la création.
--Augmentation de la vitesse de mouvement, de la classe d'armure, et des jets de sauvegarde en fonction de l'expérience du combat.
--Gagné l'habilité "Armure de lumière" en accord avec son expérience du combat.
--Gagne le Toucher du paradis en devenant le Porteur de lumière.
--Bonus de +1 au toucher et aux dégâts tous les 3 niveaux.
--Bonus de -1 au facteur de vitesse tous les 3 niveaux.
--Augmentation des résistances physiques, élémentaires et magiques à chaque niveau.
+- Immunité aux attaques sournoises, +1 à la force, à la dextérité et à la constitution lors de la création.
+- Bonus de +1 au toucher et aux dégâts tous les 3 niveaux.
+- Bonus de -1 au facteur de vitesse tous les 4 niveaux.
+- Bonus de -2 à la CA et +2 au déplacement tous les 7 niveaux.
+- Bonus de -2 aux jets de sauvegarde Au niveau 7 et tous les 7 niveaux suivant (Max -8).
+- 1% de résistances physiques et élémentaires par niveau.
+- 2% de résistance à la magie par niveau (max 78%).
+- "Armure de lumière" tous les 7 niveaux (une utilisation au niveau 1).
+- "Toucher du paradis" au niveau 35 et tous les 5 niveaux suivants.
 
 Titres :
--Apprenti (Niveau 7) : Immunité aux maladies, et ne peux pas être ralenti ou hâté.
--Expert (Niveau 14) : Immunité aux charmes et aux poisons.
--Spartien (Niveau 21) : Immunité à la peur.
--Morituri (Niveau 28) : Protection permanente contre le mal, bonus de +1 à la force, la dextérité, l'endurance, régénère 1pv/sec.  
--Porteur de lumière (Niveau 35) : Immunisé contre l'étourdissement et l'aveuglement, +1 attaque par round , bonus de +1 à la force, la dextérité, l'endurance, régénère 2pv/sec.
+-Apprenti (Niveau 7) : immunité aux maladies, et ne peut pas être ralenti ou sous l'effet de la Hâte.
+-Expert (Niveau 14) : immunité aux charmes et aux poisons.
+-Spartien (Niveau 21) : immunité à la peur.
+-Morituri (Niveau 28) : immunité à la paralysie, protection permanente contre le mal, bonus de +1 à la force, à la dextérité et à la constitution, régénère 1pv/sec.  
+-Porteur de lumière (Niveau 35) : Immunisé à l'étourdissement et à l'aveuglement, +1 attaque par round , bonus de +1 à la force, à la dextérité et à la constitution, régénère 2pv/sec.
 
+ARMURE DE LUMIÈRE :
+Dégâts maximaux pendant les 6 premières secondes, +2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 au déplacement, +15 points de vie et immunité à la mort magique, au charme, à l'immobilisation, à la peur, au sort 'Labyrinthe', 'Emprisonnement', 'Étourdissement', 'Sommeil', au drain de niveau pendant 60 secondes.
+Quand l'armure cesse son effet le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 au déplacement, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.
 
-Armure de lumière :
-Dommages maximaux pour les 6 premières secondes plus 2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 aux mouvements, +15 point de vie et immunité à mort magique, charme, immobilisation, peur, Labyrinthe,Emprisonnement, étourdissement, sommeil, drain de niveau pendant 60 secondes.
-Quand l'armure cesse son effet le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 aux mouvements, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.
-
-Toucher du paradis :
-Une combinaison des sorts Guérison de masse, Rayon de soleil, Beauté de la nature, Coup de vent et Protection contre le Mal sur 3 mètres.
-
+TOUCHER DU PARADIS :
+Une combinaison des sorts 'Guérison de masse', 'Rayon de soleil', 'Beauté de la nature', 'Coup de vent' et 'Protection contre le Mal' sur 3 mètres.
 
 
 Désavantages :
--Ne peux maitriser que les armes qui se conforment à La voie de l'épée.
--Ne peux pas utiliser d'armes à distance.
+-Ne peut pas utiliser d'armes de trait.
 -Ne peut utiliser aucun objet magique à part armes et bottes.
+-Ne peut acquérir la grande maîtrise que dans les armes qui se conforment à la voie de l'épée.
+-Doit être d'alignement bon.
+-Ne peut pas s'écarter des enseignements de l'Ordre.~
+
+@3 = ~Les plus exceptionnels combattants de mêlée, les Morituri, sont les guerriers qui ont abandonné leur besoin d'armure ou d'objets magiques pour optimiser leurs capacités martiales. Leur long et dur entrainement leur a donné la capacité de combiner les compétences et dons du mortel kensaï, de l'endurant barbare, de l'enragé Berserker et du rapide Moine. Les morituri tiennent tête à leurs ennemis sans jamais reculer, n'aspirant qu'à la victoire ou la mort. Bien qu'il leur manque le support d'une armure ou d'objets magique, leurs grandes capacités physiques, leur contrôle parfait de l'énergie ki et leur détermination inébranlable font d'eux de formidables adversaires et de dignes représentant du droit et de la justice sur Faërun.
+Les Morituri qui réussissent à survivre assez longtemps pour développer leur plein potentiel portent le titre honorifique de Porteur de lumière, devenant ainsi une vraie force de droit et de justice.
+
+Avantages :
+- Peut atteindre la grande maîtrise dans les armes qui se conforment à la voie de l'épée.
+- Immunité aux attaques sournoises, +1 à la force, à la dextérité et à la constitution lors de la création.
+- Bonus de +1 au toucher et aux dégâts tous les 3 niveaux.
+- Bonus de -1 au facteur de vitesse tous les 4 niveaux.
+- Bonus de -2 à la CA et +2 au déplacement tous les 7 niveaux.
+- Bonus de -2 aux jets de sauvegarde Au niveau 7 et tous les 7 niveaux suivant (Max -8).
+- 1% de résistances physiques et élémentaires par niveau.
+- 2% de résistance à la magie par niveau (max 78%).
+- "Armure de lumière" tous les 7 niveaux (une utilisation au niveau 1).
+- "Toucher du paradis" au niveau 35 et tous les 5 niveaux suivants.
+
+Titres :
+-Apprenti (Niveau 7) : immunité aux maladies, et ne peut pas être ralenti ou sous l'effet de la Hâte.
+-Expert (Niveau 14) : immunité aux charmes et aux poisons.
+-Spartien (Niveau 21) : immunité à la peur.
+-Morituri (Niveau 28) : immunité à la paralysie, protection permanente contre le mal, bonus de +1 à la force, à la dextérité et à la constitution, régénère 1pv/sec.  
+-Porteur de lumière (Niveau 35) : Immunisé à l'étourdissement et à l'aveuglement, +1 attaque par round , bonus de +1 à la force, à la dextérité et à la constitution, régénère 2pv/sec.
+
+ARMURE DE LUMIÈRE :
+Dégâts maximaux pendant les 6 premières secondes, +2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 au déplacement, +15 points de vie et immunité à la mort magique, au charme, à l'immobilisation, à la peur, au sort 'Labyrinthe', 'Emprisonnement', 'Étourdissement', 'Sommeil', au drain de niveau pendant 60 secondes.
+Quand l'armure cesse son effet le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 au déplacement, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.
+
+TOUCHER DU PARADIS :
+Une combinaison des sorts 'Guérison de masse', 'Rayon de soleil', 'Beauté de la nature', 'Coup de vent' et 'Protection contre le Mal' sur 3 mètres.
+
+Désavantages :
+-Ne peux pas utiliser d'armes de trait.
+-Ne peut utiliser aucun objet magique à part armes et bottes.
+-Ne peut acquérir la grande maîtrise que dans les armes qui se conforment à la voie de l'épée.
 -Ne peut utiliser la capacité d'imposition des mains.
 -Ne peut utiliser de sorts de prêtres.
 -Ne peut repousser les morts-vivants.~
-
-
 
 @4 = ~Le titre change en Novice~
 @5 = ~Novice~
 
 @6 = ~Le titre change en Apprenti~
 @7 = ~Apprenti~
-	
+
 @8 = ~Le titre change en Expert~
 @9 = ~Expert~
 
@@ -100,7 +95,7 @@ Désavantages :
 @15 = ~Porteur de lumière~
 
 @16 = ~Armure de lumière~
-@17 = ~Une combinaison du Kai et de la rage de Berserker : l'armure de lumière accorde Les dommages maximaux pour les 6 premières secondes plus 2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 aux mouvements, +15 point de vie et immunité à mort magique, charme, immobilisation, peur, Labyrinthe,Emprisonnement, étourdissement, sommeil, drain de niveau pendant 60 secondes. Quand l'armure cesse son effet le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 aux mouvements, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.~
+@17 = ~Une combinaison du Kai et de la rage de Berserker : l'armure de lumière accorde Les dommages maximaux pour les 6 premières secondes, +2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 aux mouvements, +15 point de vie et immunités à : mort magique, charme, immobilisation, peur, Labyrinthe,Emprisonnement, étourdissement, sommeil, drain de niveau pendant 60 secondes. Quand l'armure cesse son effet le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 aux mouvements, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.~
 
 @18 = ~Toucher du paradis~
 @19 = ~Une combinaison des sorts Guérison de masse, Rayon de soleil, Beauté de la nature, Coup de vent et Protection contre le Mal sur 3 mètres (inspiré par le "Moonrays" de Solafein et la "bataille de la maison Je'elat améliorée" de Moonfruit).~
@@ -119,9 +114,9 @@ Résistance élémentaire 7%
 Résistance physique 7%
 Résistance à la magie 14%
 Vitesse de mouvement +4
-Jets de sauvegarde -2
 Classe d'armure -4
-Gagne Armure de lumiére~
+Jets de sauvegarde -2
+Gagne Armure de lumière~
 
 @27 = ~EXPERT
 Immunité aux charmes et aux poisons
@@ -129,8 +124,8 @@ Résistance élémentaire 14%
 Résistance physique 14%
 Résistance à la magie 28%
 Vitesse de mouvement +6
-Jets de sauvegarde -4
 Classe d'armure -6
+Jets de sauvegarde -4
 Gagne Armure de lumière~
 
 @28 = ~SPARTIEN
@@ -139,43 +134,140 @@ Résistance élémentaire 21%
 Résistance physique 21%
 Résistance à la magie 42%
 Vitesse de mouvement +8
-Jets de sauvegarde -6
 Classe d'armure -8
+Jets de sauvegarde -6
 Gagne Armure de lumière~
 
 @29 = ~MORITURI
+Immunité à la paralysie
 Protection permanente contre le mal
-Bonus de +1 en for/Dex/Con
+Bonus de +1 en For/Dex/Con
 Régénération 1pv/sec
 Résistance élémentaire 28%
 Résistance physique 28%
 Résistance à la magie 56%
 Vitesse de mouvement +10
-Jets de sauvegarde -8
 Classe d'armure -10
+Jets de sauvegarde -8
 Gagne Armure de lumière~
 
 @30 = ~PORTEUR DE LUMIÈRE
-Immunité contre étourdissement et aveuglement
-Bonus +1 en for/Dex/Con
+Immunité à l'étourdissement et à l'aveuglement
+Bonus +1 en For/Dex/Con
 Bonus +1 Attaque par round
-Régénération 2pv/sec
+Régénération 3pv/sec
 Résistance élémentaire 35%
 Résistance physique 35%
-Résistance à la magie 75%
+Résistance à la magie 70%
 Vitesse de mouvement +12
-Jets de sauvegarde -8
 Classe d'armure -12
+Jets de sauvegarde -8
 Gagne Toucher du Paradis~
 
-@31 = ~Père éternel, protége moi contre le mal~
+@31 = ~Père éternel, protège moi contre le mal~
 
-@32 = ~Que les forces de la lumière guérissent mes alliés et apportent la destruction sur mes ennemis~
+@32 = ~Que les forces de la lumière guérissent mes alliés et détruisent mes ennemis~
 
-@33 = ~Bientôt mes forces reviendront~
+@33 = ~Mes forces reviendront bientôt~
 
-@34 = ~Loué soit le Seigneur, je suis fort à nouveau~
+@34 = ~Loué soit le Seigneur, j'ai retrouvé mes forces.~
 
 @35 = ~Installer le Morituri en tant que Guerrier~
 
 @36 = ~Installer le Morituri en tant que Paladin~
+
+@37 = ~Installer les deux~
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "

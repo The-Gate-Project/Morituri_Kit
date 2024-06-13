@@ -1,6 +1,36 @@
 BACKUP ~morituri/backup~
 AUTHOR "Aroc (Ioannis Mantzouranis, aroc@otenet.gr)"
 
+ALWAYS
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	INCLUDE ~Morituri/fl#add_kit_ee.tpa~
+	ACTION_DEFINE_ARRAY ch_reload BEGIN
+	~Setup-Morituri.tra~
+	END
+	ACTION_DEFINE_ARRAY ch_noconvert BEGIN END
+	LAF HANDLE_CHARSETS
+		INT_VAR
+		infer_charset = 1
+		STR_VAR
+		tra_path = EVAL ~%MOD_FOLDER%/tra~
+		noconvert_array = ch_noconvert
+		reload_array = ch_reload
+	END
+	END
+	COPY ~morituri/spells~    ~override~
+	COPY ~morituri/spells/chtitnov.spl~	~override~	SAY NAME1 @4	SAY 0x9e  @5
+	COPY_EXISTING	~chtitnov.spl~	~override/chtitapp.spl~	SAY NAME1 @6	SAY 0x9e  @7	WRITE_ASCII 0xde ~mlevel7~ #8
+	COPY_EXISTING	~chtitnov.spl~	~override/chtitexp.spl~	SAY NAME1 @8	SAY 0x9e  @9	WRITE_ASCII 0xde ~mlevel14~ #8
+	COPY_EXISTING	~chtitnov.spl~	~override/chtitspa.spl~	SAY NAME1 @10	SAY 0x9e  @11	WRITE_ASCII 0xde ~mlevel21~ #8
+	COPY_EXISTING	~chtitnov.spl~	~override/chtitmor.spl~	SAY NAME1 @12	SAY 0x9e  @13	WRITE_ASCII 0xde ~mlevel28~ #8
+	COPY_EXISTING	~chtitnov.spl~	~override/chtitdea.spl~	SAY NAME1 @14	SAY 0x9e  @15	WRITE_ASCII 0xde ~mlevel35~ #8
+	COPY ~morituri/spells/spIN399.spl~	~override~	SAY NAME1 @16	SAY NAME2 @17
+	COPY ~morituri/spells/spIN398.spl~	~override~	SAY NAME1 @18	SAY NAME2 @19
+
+	COMPILE ~morituri/morituri.baf~
+	AT_INTERACTIVE_EXIT ~notepad morituri/Morituri-readme.txt~
+END
+
 LANGUAGE ~English~
 	 ~English~
 	 ~Morituri/tra/English/Setup-Morituri.tra~
@@ -31,7 +61,6 @@ ADD_KIT ~morituri~
 /* this line is appened to ALIGNMNT.2DA */
 ~morituri         1       0       0       1       0       0       1     0       0~
 
-
 /* this line goes to DUALCLAS.2DA */
 ~morituri               0       0       0       0       0       0~
 
@@ -61,158 +90,75 @@ SAY @1
 SAY @1
 SAY @2
 
-COPY ~morituri/spells~    ~override~
-
-COPY ~morituri/spells/chtitnov.spl~   ~override/chtitnov.spl~	
-SAY NAME1 @4
-SAY NAME2 @4
-SAY 0x9e  @5
-
-COPY ~morituri/spells/chtitapp.spl~   ~override/chtitapp.spl~	
-SAY NAME1 @6
-SAY NAME2 @6
-SAY 0x9e  @7
-
-COPY ~morituri/spells/chtitexp.spl~   ~override/chtitexp.spl~	
-SAY NAME1 @8
-SAY NAME2 @8
-SAY 0x9e  @9
-
-COPY ~morituri/spells/chtitspa.spl~   ~override/chtitspa.spl~	
-SAY NAME1 @10
-SAY NAME2 @10
-SAY 0x9e  @11
-
-COPY ~morituri/spells/chtitmor.spl~   ~override/chtitmor.spl~	
-SAY NAME1 @12
-SAY NAME2 @12
-SAY 0x9e  @13
-
-COPY ~morituri/spells/chtitdea.spl~   ~override/chtitdea.spl~	
-SAY NAME1 @14
-SAY NAME2 @14
-SAY 0x9e  @15
-
-COPY ~morituri/spells/spIN399.spl~   ~override/spIN399.spl~	
-SAY NAME1 @16
-SAY NAME2 @17
-
-COPY ~morituri/spells/spIN398.spl~   ~override/spIN398.spl~	
-SAY NAME1 @18
-SAY NAME2 @19
-
-
-COPY_EXISTING ~DPlayer3.bcs~ ~Override/DPlayer3.bcs~
-EXTEND_TOP ~DPlayer3.bcs~ ~morituri/morstats.baf~
-EXTEND_TOP ~DPlayer3.bcs~ ~morituri/mortext.baf~
-
-COPY_EXISTING ~DPlayer2.bcs~ ~Override/DPlayer2.bcs~
-EXTEND_TOP ~DPlayer2.bcs~ ~morituri/morstats.baf~
-EXTEND_TOP ~DPlayer2.bcs~ ~morituri/mortext.baf~
-
-AT_INTERACTIVE_EXIT ~notepad morituri/Morituri-readme.txt~
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	LAF fl#add_kit_ee STR_VAR kit_name = morituri clsrcreq = ~1 0 0 0 0 0 0~ END
+END
 
 BEGIN @36 SUBCOMPONENT @1
-ADD_KIT ~morituri~ 
-
-~morituri                 1           1           1           0           0           1           1           1~
-
-~morituri 5 5 0 0 0 0 0 0 5 5 5 0 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
-
-/* this line is appened to ABCLASRQ.2DA */
-~morituri                 7      8      7      7       5      17~
-
-/* this line is appened to ABCLSMOD.2DA */
-~morituri                 1      1      1      0       0       0~
-
-/* this line is appened to ABDCDSRQ.2DA */
-~morituri                 0      0      0       0       0      0~
-
-/* this line is appened to ABDCSCRQ.2DA */
-~morituri                 0      0      0       0       0      0~
-
-/* this line is appened to ALIGNMNT.2DA */
-~morituri         1       0       0       1       0       0       1     0       0~
-
-
-/* this line goes to DUALCLAS.2DA */
-~morituri               0       0       0       0       0       0~
-
-/* this is the name of your abilities 2DA file, in the style of
- * clabrn02.2da */
+ADD_KIT ~moriturip~ 
+~moriturip                 1           1           1           0           0           1           1           1~
+~moriturip 5 5 0 0 0 0 0 0 5 5 5 0 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+~moriturip                 7      8      7      7       5      17~
+~moriturip                 1      1      1      0       0       0~
+~moriturip                 0      0      0       0       0      0~
+~moriturip                 0      0      0       0       0      0~
+~moriturip         1       0       0       1       0       0       1     0       0~
+~moriturip               0       0       0       0       0       0~
 ~morituri/moriturp.2da~
-
-/* These are the 2da files listed in KITTABLE.2DA that you want your kit to
- * be a part of. List as many as you like. */
-~K_p_H~
-
-/* This is the "unusable" value you want for you kit and also the class
- * value. These would normally appear at the end of KITLIST.2DA */
+~K_P_H~
 ~0x00008006    6~
-
-/* This is the High Level Ability Abbreviation (see LUABBR.2DA)
- * Normal values are Fi0, Pa0, etc. */
 ~pa0~
-
-/* This is the TOB starting equipment list. Put a * if you don't want 
- * something. See 25STWEAP.2DA. */
 ~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 XBOW06~
-
-/* These are the strings you want for the lower, mixed and help
- * descriptions for your kit. */
 SAY @1
 SAY @1
 SAY @3
 
-COPY ~morituri/spells~    ~override~
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	LAF fl#add_kit_ee STR_VAR kit_name = moriturip clsrcreq = ~1 0 0 0 0 0 0~ END
+END
 
-COPY ~morituri/spells/chtitnov.spl~   ~override/chtitnov.spl~	
-SAY NAME1 @4
-SAY NAME2 @4
-SAY 0x9e  @5
+BEGIN @37 SUBCOMPONENT @1
+ADD_KIT ~morituri~ 
+~morituri                 1           1           1           0           0           1           1           1~
+~morituri 5 5 0 0 0 0 0 0 5 5 5 0 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+~morituri                 7      8      7      7       5      7~
+~morituri                 1      1      1      0       0       0~
+~morituri                 0      0      0       0       0      0~
+~morituri                 0      0      0       0       0      0~
+~morituri         1       0       0       1       0       0       1     0       0~
+~morituri               0       0       0       0       0       0~
+~morituri/moriturf.2da~
+~K_f_H ~
+~0x00008006    2~
+~fi0~
+~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 XBOW06~
 
-COPY ~morituri/spells/chtitapp.spl~   ~override/chtitapp.spl~	
-SAY NAME1 @6
-SAY NAME2 @6
-SAY 0x9e  @7
+SAY @1
+SAY @1
+SAY @2
 
-COPY ~morituri/spells/chtitexp.spl~   ~override/chtitexp.spl~	
-SAY NAME1 @8
-SAY NAME2 @8
-SAY 0x9e  @9
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	LAF fl#add_kit_ee STR_VAR kit_name = morituri clsrcreq = ~1 0 0 0 0 0 0~ END
+END
 
-COPY ~morituri/spells/chtitspa.spl~   ~override/chtitspa.spl~	
-SAY NAME1 @10
-SAY NAME2 @10
-SAY 0x9e  @11
+ADD_KIT ~moriturip~ 
+~moriturip                 1           1           1           0           0           1           1           1~
+~moriturip 5 5 0 0 0 0 0 0 5 5 5 0 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+~moriturip                 7      8      7      7       5      17~
+~moriturip                 1      1      1      0       0       0~
+~moriturip                 0      0      0       0       0      0~
+~moriturip                 0      0      0       0       0      0~
+~moriturip         1       0       0       1       0       0       1     0       0~
+~moriturip               0       0       0       0       0       0~
+~morituri/moriturp.2da~
+~K_P_H~
+~0x00008006    6~
+~pa0~
+~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 XBOW06~
+SAY @1
+SAY @1
+SAY @3
 
-COPY ~morituri/spells/chtitmor.spl~   ~override/chtitmor.spl~	
-SAY NAME1 @12
-SAY NAME2 @12
-SAY 0x9e  @13
-
-COPY ~morituri/spells/chtitdea.spl~   ~override/chtitdea.spl~	
-SAY NAME1 @14
-SAY NAME2 @14
-SAY 0x9e  @15
-
-COPY ~morituri/spells/spIN399.spl~   ~override/spIN399.spl~	
-SAY NAME1 @16
-SAY NAME2 @17
-
-COPY ~morituri/spells/spIN398.spl~   ~override/spIN398.spl~	
-SAY NAME1 @18
-SAY NAME2 @19
-
-
-COPY_EXISTING ~DPlayer3.bcs~ ~Override/DPlayer3.bcs~
-EXTEND_TOP ~DPlayer3.bcs~ ~morituri/morstats.baf~
-EXTEND_TOP ~DPlayer3.bcs~ ~morituri/mortext.baf~
-
-COPY_EXISTING ~DPlayer2.bcs~ ~Override/DPlayer2.bcs~
-EXTEND_TOP ~DPlayer2.bcs~ ~morituri/morstats.baf~
-EXTEND_TOP ~DPlayer2.bcs~ ~morituri/mortext.baf~
-
-AT_INTERACTIVE_EXIT ~notepad morituri/Morituri-readme.txt~
-
-// EOF: MORITURI.tp2
+ACTION_IF GAME_IS ~BGEE SOD BG2EE IWDEE EET~ THEN BEGIN
+	LAF fl#add_kit_ee STR_VAR kit_name = moriturip clsrcreq = ~1 0 0 0 0 0 0~ END
+END
