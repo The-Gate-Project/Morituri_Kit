@@ -1,0 +1,135 @@
+@0 = ~Kit du Morituri, version 3~
+@1 = ~Morituri~
+@2 = ~Les uniques classes de combattants ultimes de mêlée, les Morituri, sont les guerriers qui ont abandonné leur besoin d'armure ou d'objets magiques pour optimiser leurs capacités. Leur long et dur entrainement leur a donné la capacité de combiner les compétences et dons du mortel kensaï, de l'endurant barbare, de l'enragé Berserker et du rapide Moine. Les morituri tiennent tête à leurs ennemis sans jamais battre en retraite, ne cherchant que la victoire ou la mort. Bien qu'il leur manque le support d'une armure ou d'objets magiques, leurs extraordinaires capacités physiques, leur contrôle parfait de l'énergie ki et leur détermination inébranlable font d'eux de formidables adversaires et les dignes représentants du droit et de la justice sur Féérune.
+Les Morituri qui réussissent à survivre assez longtemps pour développer leur plein potentiel portent le titre honorifique de Porteur de lumière, devenant ainsi une vraie force de droit et de justice.
+Actuellement, seuls les humains peuvent être acceptés comme candidats dans l'Ordre des Morituri.
+
+
+Avantages :
+- Immunité aux attaques sournoises, +1 à la force, à la dextérité et à la constitution lors de la création.
+- Augmentation de la vitesse de déplacement, de la classe d'armure, et des jets de sauvegarde en fonction de l'expérience du combat.
+- Gagne l'habilité "Armure de lumière" en accord avec son expérience du combat
+- Gagne le Toucher du paradis en devenant le Porteur de lumière 
+- Bonus de +1 au toucher et aux dégâts tous les 3 niveaux.
+- Bonus de -1 au facteur de vitesse tous les 3 niveaux.
+- Augmentation des résistances physiques, élémentaires et magiques à chaque niveau.
+
+Titres :
+-Apprenti (Niveau 7) : Immunité aux maladies, et ne peut pas être ralenti ou sous l'effet de la Hâte.
+-Expert (Niveau 14) : Immunité aux charmes et aux poisons.
+-Spartiate (Niveau 21) : Immunité à la peur.
+-Morituri (Niveau 28) : Protection permanente contre le mal, bonus de +1 à la force, à la dextérité et à la constitution, régénère 1pv/sec.  
+-Porteur de lumière (Niveau 35) : Immunisé contre l'étourdissement et l'aveuglement, +1 attaque par round , bonus de +1 à la force, à la dextérité et à la constitution, régénère 2pv/sec.
+
+
+Armure de lumière :
+Dégâts maximaux pendant les 6 premières secondes, +2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 au déplacement, +15 points de vie et immunité à la mort magique, au charme, à l'immobilisation, à la peur, au sort 'Labyrinthe', 'Emprisonnement', 'Etourdissement', 'Sommeil', au drain de niveau pendant 60 secondes.
+Quand l'armure cesse son effet le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 au déplacement, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.
+
+Toucher du paradis :
+Une combinaison des sorts 'Guérison de masse', 'Rayon de soleil', 'Beauté de la nature', 'Coup de vent' et 'Protection contre le Mal' sur 3 mètres.
+
+
+
+Désavantages :
+-Ne peut pas utiliser d'armes à distance.
+-Ne peut utiliser aucun objet magique à part armes et bottes.
+-Ne peut acquérir la grande maitrise que dans les armes qui se conforment à la voie de l'épée.
+-Doit être d'alignement bon.
+-Ne peut pas s'écarter des enseignements de l'Ordre.
+-Doit être humain.~
+
+@3 = ~Le titre change en Novice~
+@4 = ~Novice~
+
+@5 = ~Le titre change en Apprenti~
+@6 = ~Apprenti~
+	
+@7 = ~Le titre change en Expert~
+@8 = ~Expert~
+
+@9 = ~Le titre change en Spartiate~
+@10 = ~Spartiate~
+
+@11 = ~Le titre change en Morituri~
+@12 = ~Morituri~
+
+@13 = ~Le titre change en Porteur de lumière~
+@14 = ~Porteur de lumière~
+
+@15 = ~Armure de lumière~
+@16 = ~Une combinaison du Kai et de la rage de Berserker : l'armure de lumière accorde des dégâts maximaux pendant les 6 premières secondes, +2 au toucher, -2 au facteur de vitesse, -2 à la classe d'armure, +4 au déplacement, +15 points de vie et immunité à la mort magique, au charme, à l'immobilisation, à la peur, au sort 'Labyrinthe', 'Emprisonnement', 'Etourdissement', 'Sommeil', au drain de niveau pendant 60 secondes. Quand l'armure cesse son effet, le Morituri est fatigué : -4 à l'attaque, +4 à la classe d'armure, -8 au déplacement, -4 au facteur de vitesse, -15 points de vie pendant 30 secondes.~
+
+@17 = ~Toucher du paradis~
+@18 = ~Une combinaison des sorts 'Guérison de masse', 'Rayon de soleil', 'Beauté de la nature', 'Coup de vent' et 'Protection contre le Mal' sur 3 mètres (inspiré par le "Rayon de Lune" de Solaufein et la "bataille de la maison Je'elat améliorée" de Moonfruit).~
+
+@25 = ~NOVICE
+Immunité à l'attaque sournoise
+Résistance élémentaire 1%
+Résistance physique 1%
+Résistance à la magie 2%
+Vitesse de déplacement +2
+Classe d'armure -2~
+
+@26 = ~APPRENTI
+Immunité aux maladies, à la hâte et au ralentissement
+Résistance élémentaire 7%
+Résistance physique 7%
+Résistance à la magie 14%
+Vitesse de déplacement +4
+Jets de sauvegarde -2
+Classe d'armure -4
+Gagne Armure de lumiére~
+
+@27 = ~EXPERT
+Immunité aux charmes et aux poisons
+Résistance élémentaire 14%
+Résistance physique 14%
+Résistance à la magie 28%
+Vitesse de déplacement +6
+Jets de sauvegarde -4
+Classe d'armure -6
+Gagne Armure de lumière~
+
+@28 = ~SPARTIATE
+Immunité à la peur
+Résistance élémentaire 21%
+Résistance physique 21%
+Résistance à la magie 42%
+Vitesse de déplacement +8
+Jets de sauvegarde -6
+Classe d'armure -8
+Gagne Armure de lumière~
+
+@29 = ~MORITURI
+Protection permanente contre le mal
+Bonus de +1 en For/Dex/Con
+Régénération 1pv/sec
+Résistance élémentaire 28%
+Résistance physique 28%
+Résistance à la magie 56%
+Vitesse de déplacement +10
+Jets de sauvegarde -8
+Classe d'armure -10
+Gagne Armure de lumière~
+
+@30 = ~PORTEUR DE LUMIÈRE
+Immunité contre étourdissement et aveuglement
+Bonus +1 en For/Dex/Con
+Bonus +1 Attaque par round
+Régénération 2pv/sec
+Résistance élémentaire 35%
+Résistance physique 35%
+Résistance à la magie 75%
+Vitesse de déplacement +12
+Jets de sauvegarde -8
+Classe d'armure -12
+Gagne Toucher du Paradis~
+
+@31 = ~Père éternel, protège-moi contre le mal !~
+
+@32 = ~Que les forces de la lumière guérissent mes alliés et apportent la destruction sur mes ennemis !~
+
+@33 = ~Bientôt mes forces reviendront !~
+
+@34 = ~Loué soit le Seigneur, je suis fort à nouveau !~

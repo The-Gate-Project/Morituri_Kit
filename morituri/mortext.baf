@@ -1,0 +1,32 @@
+IF
+Kit(Myself,MORITURI)
+Global("11111","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @31)
+SetGlobal("11111","LOCALS",0)
+END
+IF
+Kit(Myself,MORITURI)
+Global("22222","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @32)
+SetGlobal("22222","LOCALS",0)
+END
+IF
+Kit(Myself,MORITURI)
+Global("44444","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @33)
+SetGlobal("44444","LOCALS",0)
+END
+IF
+Kit(Myself,MORITURI)
+Global("33333","LOCALS",1)
+THEN
+RESPONSE #100
+DisplayStringHead(Myself, @34)
+SetGlobal("33333","LOCALS",0)
+END

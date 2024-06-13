@@ -1,0 +1,54 @@
+IF
+Global("Moriturilevel1","LOCALS",0)
+Checkstat(Myself,1,LEVEL)
+Kit(Myself,Morituri)
+THEN
+RESPONSE #100
+SetGlobal("Moriturilevel1","LOCALS",1)
+DisplayStringHead(Myself, @25)
+END
+IF
+Global("Moriturilevel7","LOCALS",0)
+Checkstat(Myself,7,LEVEL)
+Kit(Myself,Morituri)
+THEN
+RESPONSE #100
+SetGlobal("Moriturilevel7","LOCALS",1)
+DisplayStringHead(Myself, @26)
+END
+IF
+Global("Moriturilevel14","LOCALS",0)
+Checkstat(Myself,14,LEVEL)
+Kit(Myself,Morituri)
+THEN
+RESPONSE #100
+SetGlobal("Moriturilevel14","LOCALS",1)
+DisplayStringHead(Myself, @27)
+END
+IF
+Global("Moriturilevel21","LOCALS",0)
+Checkstat(Myself,21,LEVEL)
+Kit(Myself,Morituri)
+THEN
+RESPONSE #100
+SetGlobal("Moriturilevel21","LOCALS",1)
+DisplayStringHead(Myself,@28)
+END
+IF
+Global("Moriturilevel28","LOCALS",0)
+Checkstat(Myself,28,LEVEL)
+Kit(Myself,Morituri)
+THEN
+RESPONSE #100
+SetGlobal("Moriturilevel28","LOCALS",1)
+DisplayStringHead(Myself, @29)
+END
+IF
+Global("Moriturilevel35","LOCALS",0)
+Checkstat(Myself,35,LEVEL)
+Kit(Myself,Morituri)
+THEN
+RESPONSE #100
+SetGlobal("Moriturilevel35","LOCALS",1)
+DisplayStringHead(Myself, @30)
+END

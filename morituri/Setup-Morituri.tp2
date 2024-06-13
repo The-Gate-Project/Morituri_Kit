@@ -1,0 +1,115 @@
+BACKUP ~morituri/backup~
+AUTHOR "Aroc (Ioannis Mantzouranis, aroc@otenet.gr)"
+
+LANGUAGE ~English~
+	 ~English~
+	 ~Morituri/tra/English/Setup-Morituri.tra~
+
+LANGUAGE ~French~ (Traduit par Deratiseur)
+	 ~French~
+	 ~Morituri/tra/French/Setup-Morituri.tra~
+
+BEGIN @0
+ADD_KIT ~morituri~ 
+
+~morituri                 1           1           1           0           0           1           1           1~
+
+~morituri 5 5 0 0 0 0 0 0 5 5 5 0 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/* this line is appened to ABCLASRQ.2DA */
+~morituri                 7      8      7      7       5      7~
+
+/* this line is appened to ABCLSMOD.2DA */
+~morituri                 1      1      1      0       0       0~
+
+/* this line is appened to ABDCDSRQ.2DA */
+~morituri                 0      0      0       0       0      0~
+
+/* this line is appened to ABDCSCRQ.2DA */
+~morituri                 0      0      0       0       0      0~
+
+/* this line is appened to ALIGNMNT.2DA */
+~morituri         1       0       0       1       0       0       1     0       0~
+
+
+/* this line goes to DUALCLAS.2DA */
+~morituri               0       0       0       0       0       0~
+
+/* this is the name of your abilities 2DA file, in the style of
+ * clabrn02.2da */
+~morituri/morituri.2da~
+
+/* These are the 2da files listed in KITTABLE.2DA that you want your kit to
+ * be a part of. List as many as you like. */
+~K_f_H ~
+
+/* This is the "unusable" value you want for you kit and also the class
+ * value. These would normally appear at the end of KITLIST.2DA */
+~0x00008006    2~
+
+/* This is the High Level Ability Abbreviation (see LUABBR.2DA)
+ * Normal values are Fi0, Pa0, etc. */
+~fi0~
+
+/* This is the TOB starting equipment list. Put a * if you don't want 
+ * something. See 25STWEAP.2DA. */
+~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 XBOW06~
+
+/* These are the strings you want for the lower, mixed and help
+ * descriptions for your kit. */
+SAY @1
+SAY @1
+SAY @2
+
+COPY ~morituri/spells~    ~override~
+
+COPY ~morituri/spells/chtitnov.spl~   ~override/chtitnov.spl~	
+SAY NAME1 @3
+SAY NAME2 @3
+SAY 0x9e  @4
+
+COPY ~morituri/spells/chtitapp.spl~   ~override/chtitapp.spl~	
+SAY NAME1 @5
+SAY NAME2 @5
+SAY 0x9e  @6
+
+COPY ~morituri/spells/chtitexp.spl~   ~override/chtitexp.spl~	
+SAY NAME1 @7
+SAY NAME2 @7
+SAY 0x9e  @8
+
+COPY ~morituri/spells/chtitspa.spl~   ~override/chtitspa.spl~	
+SAY NAME1 @9
+SAY NAME2 @9
+SAY 0x9e  @10
+
+COPY ~morituri/spells/chtitmor.spl~   ~override/chtitmor.spl~	
+SAY NAME1 @11
+SAY NAME2 @11
+SAY 0x9e  @12
+
+COPY ~morituri/spells/chtitdea.spl~   ~override/chtitdea.spl~	
+SAY NAME1 @13
+SAY NAME2 @13
+SAY 0x9e  @14
+
+COPY ~morituri/spells/spIN399.spl~   ~override/spIN399.spl~	
+SAY NAME1 @15
+SAY NAME2 @16
+
+COPY ~morituri/spells/spIN398.spl~   ~override/spIN398.spl~	
+SAY NAME1 @17
+SAY NAME2 @18
+
+
+COPY_EXISTING ~DPlayer3.bcs~ ~Override/DPlayer3.bcs~
+EXTEND_TOP ~DPlayer3.bcs~ ~morituri/morstats.baf~
+EXTEND_TOP ~DPlayer3.bcs~ ~morituri/mortext.baf~
+
+COPY_EXISTING ~DPlayer2.bcs~ ~Override/DPlayer2.bcs~
+EXTEND_TOP ~DPlayer2.bcs~ ~morituri/morstats.baf~
+EXTEND_TOP ~DPlayer2.bcs~ ~morituri/mortext.baf~
+
+AT_INTERACTIVE_EXIT ~notepad morituri/Morituri-readme.txt~
+
+// EOF: MORITURI.tp2
