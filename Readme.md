@@ -4,7 +4,7 @@
 
 **Autor** : **Aroc**
 
-[Link to readme](http://www.shsforums.net/topic/46480-warsling-sniper-kit-for-fighters/)
+[Link to readme](https://github.com/The-Gate-Project/Morituri_Kit/blob/main/morituri/Morituri-readme.txt)
 
 Playable fighter/paladin kit for Baldur's Gate II:
 Baldur's Gate, BG : EE, Baldur's Gate II, BG2: EE, Icewind Dale: EE, Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy (EET).
