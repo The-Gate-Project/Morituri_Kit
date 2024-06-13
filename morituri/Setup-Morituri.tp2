@@ -2,7 +2,7 @@ BACKUP ~morituri/backup~
 AUTHOR "Aroc (Ioannis Mantzouranis, aroc@otenet.gr)"
 
 ALWAYS
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ THEN BEGIN
 	INCLUDE ~Morituri/fl#add_kit_ee.tpa~
 	ACTION_DEFINE_ARRAY ch_reload BEGIN
 	~Setup-Morituri.tra~
@@ -44,6 +44,8 @@ LANGUAGE ~Russian (translated by Zloy-babay)~
 	 ~Morituri/tra/Russian/Setup-Morituri.tra~
 
 BEGIN @35 SUBCOMPONENT @1
+DESIGNATED 35
+LABEL ~Aroc-Morituri_Fighter~
 ADD_KIT ~morituri~ 
 
 ~morituri                 1           1           1           0           0           1           1           1~
@@ -94,11 +96,13 @@ SAY @1
 SAY @1
 SAY @2
 
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ THEN BEGIN
 	LAF fl#add_kit_ee STR_VAR kit_name = morituri clsrcreq = ~1 0 0 0 0 0 0~ END
 END
 
 BEGIN @36 SUBCOMPONENT @1
+DESIGNATED 36
+LABEL ~Aroc-Morituri_Paladin~
 ADD_KIT ~moriturip~ 
 ~moriturip                 1           1           1           0           0           1           1           1~
 ~moriturip 5 5 0 0 0 0 0 0 5 5 5 0 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
@@ -117,11 +121,13 @@ SAY @1
 SAY @1
 SAY @3
 
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ THEN BEGIN
 	LAF fl#add_kit_ee STR_VAR kit_name = moriturip clsrcreq = ~1 0 0 0 0 0 0~ END
 END
 
 BEGIN @37 SUBCOMPONENT @1
+DESIGNATED 37
+LABEL ~Aroc-Morituri~
 ADD_KIT ~morituri~ 
 ~morituri                 1           1           1           0           0           1           1           1~
 ~morituri 5 5 0 0 0 0 0 0 5 5 5 0 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
@@ -141,7 +147,7 @@ SAY @1
 SAY @1
 SAY @2
 
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ THEN BEGIN
 	LAF fl#add_kit_ee STR_VAR kit_name = morituri clsrcreq = ~1 0 0 0 0 0 0~ END
 END
 
@@ -163,6 +169,6 @@ SAY @1
 SAY @1
 SAY @3
 
-ACTION_IF GAME_IS ~BGEE SOD BG2EE IWDEE EET~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee sod bg2ee iwdee eet~ THEN BEGIN
 	LAF fl#add_kit_ee STR_VAR kit_name = moriturip clsrcreq = ~1 0 0 0 0 0 0~ END
 END
