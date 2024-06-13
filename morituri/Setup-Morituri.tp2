@@ -1,6 +1,8 @@
 BACKUP ~morituri/backup~
 AUTHOR "Aroc (Ioannis Mantzouranis, aroc@otenet.gr)"
 
+VERSION ~5.2~
+
 ALWAYS
 ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ THEN BEGIN
 	INCLUDE ~Morituri/fl#add_kit_ee.tpa~
@@ -43,7 +45,7 @@ LANGUAGE ~Russian (translated by Zloy-babay)~
 	 ~Russian~
 	 ~Morituri/tra/Russian/Setup-Morituri.tra~
 
-BEGIN @35 SUBCOMPONENT @1
+BEGIN @35 SUBCOMPONENT @0
 DESIGNATED 35
 LABEL ~Aroc-Morituri_Fighter~
 ADD_KIT ~morituri~ 
@@ -100,7 +102,7 @@ ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ THEN BEGIN
 	LAF fl#add_kit_ee STR_VAR kit_name = morituri clsrcreq = ~1 0 0 0 0 0 0~ END
 END
 
-BEGIN @36 SUBCOMPONENT @1
+BEGIN @36 SUBCOMPONENT @0
 DESIGNATED 36
 LABEL ~Aroc-Morituri_Paladin~
 ADD_KIT ~moriturip~ 
@@ -125,7 +127,7 @@ ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ THEN BEGIN
 	LAF fl#add_kit_ee STR_VAR kit_name = moriturip clsrcreq = ~1 0 0 0 0 0 0~ END
 END
 
-BEGIN @37 SUBCOMPONENT @1
+BEGIN @37 SUBCOMPONENT @0
 DESIGNATED 37
 LABEL ~Aroc-Morituri~
 ADD_KIT ~morituri~ 
