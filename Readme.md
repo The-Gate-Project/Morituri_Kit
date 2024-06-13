@@ -4,6 +4,8 @@
 
 **Autor** : **Aroc**
 
+**Update** : **Deratiseur**
+
 [Link to readme](https://github.com/The-Gate-Project/Morituri_Kit/blob/main/morituri/Morituri-readme.txt)
 
 Playable fighter/paladin kit for Baldur's Gate II:
@@ -13,8 +15,11 @@ Baldur's Gate, BG : EE, Baldur's Gate II, BG2: EE, Icewind Dale: EE, Baldur's Ga
 ## Description:
 ------------
 
-This kit encapsules my personal understanding of a warrior dedicated in upholding  good and right. I always believed that the kensai is the perfect type of fighter and indeed there are legends inspired by kensais able to cut through solid steel cannons and of course we all have heard stories about Miyamoto Musashi...
-A warrior able to perform such feats must be strong in both body and spirit, able to withstand physical as well as elemental and  magical attacks. On the other hand his/her devotion to the Light must provide for some exceptional abilities in the battle against Evil. Taking all these in consideration I have created the Morituri kit, the incarnation of the warrior who fights almost empty handed based not on powerfull armour or  magic potions but on unfolding his/her inner qualities through combat experience. It is true a Morituri fights like there is no tomorrow constantly flirting with the possibility of Death but keep him/her alive long enough and your rewards will be great indeed.  
+This kit encapsules my personal understanding of a warrior dedicated in upholding  good and right. I always believed that the kensai is the perfect type of fighter and indeed there are legends inspired by kensais able to cut through solid steel cannons and of course we all have heard stories about Miyamoto Musashi...  
+
+A warrior able to perform such feats must be strong in both body and spirit, able to withstand physical as well as elemental and  magical attacks. On the other hand his/her devotion to the Light must provide for some exceptional abilities in the battle against Evil.  
+
+Taking all these in consideration I have created the Morituri kit, the incarnation of the warrior who fights almost empty handed based not on powerfull armour or  magic potions but on unfolding his/her inner qualities through combat experience. It is true a Morituri fights like there is no tomorrow constantly flirting with the possibility of Death but keep him/her alive long enough and your rewards will be great indeed.  
 
 
 ## Install:
@@ -28,8 +33,7 @@ Follow the prompt
 ## Version History:
 ----------------
 
-
-                       
+                    
 Version 1
  - Initial release.  
 
