@@ -1,5 +1,6 @@
 @0 = ~Morituri Kit version 3~
 @1 = ~morituri~ 
+
 @2 = ~One of the most unique melee warrior classes Morituri are fighters who have abandoned the need to use armour or any magic item in order to enhance their capabilities. Their hard and longlasting training has given them the ability to combine the specific skills and feats of the lethal Kensai, the enduring Barbarian,the battlerager Berserker and the lighting fast Monk. Morituri fight toe to toe with their enemies never retreat always seeking victory or death.Although they lack the support of an armour or any magic item at all, their superhuman physical abilities, the perfect control of their Ki energy plus their unstopable determination makes them formidable adverseries and worthy upholders of right and justice in the entire Faerun.Morituri who manage to survive long enough to reach their full potential bear the honouring title of the LightBringer,having become a true force of Right and Justice.Presently only humans are being accepted as candidates in the Order of the Morituri.
 
 Advantages:
@@ -25,29 +26,55 @@ Disadvantages:
 -Cannot stray away from the teachings of the Order.
 -Must be human.~
 
-@3 = ~Title change to Novice~
-@4 = ~Novice~
+@3 = ~One of the most unique melee warrior classes Morituri are fighters who have abandoned the need to use armour or any magic item in order to enhance their capabilities. Their hard and longlasting training has given them the ability to combine the specific skills and feats of the lethal Kensai, the enduring Barbarian,the battlerager Berserker and the lighting fast Monk. Morituri fight toe to toe with their enemies never retreat always seeking victory or death.Although they lack the support of an armour or any magic item at all, their superhuman physical abilities, the perfect control of their Ki energy plus their unstopable determination makes them formidable adverseries and worthy upholders of right and justice in the entire Faerun.Morituri who manage to survive long enough to reach their full potential bear the honouring title of the LightBringer,having become a true force of Right and Justice.Presently only humans are being accepted as candidates in the Order of the Morituri.
 
-@5 = ~Title change to Apprentice~
-@6 = ~Apprentice~
+Advantages:
+-May  become proficient up to grand mastery with weapons that  comply with the Way of the Sword.
+-Immune to backstab, +1 to str/dex/con on character creation.
+-Movement speed, armour class and saving throws improvements according to combat experience.
+-Gains Armor of Light ability according to his/her combat experience(Armour of Light:maximum damage for the first 6 seconds plus +2 to THACO, -2 attack speed, -2AC, +4 movement modifier and immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points for 60 seconds. After that the Morituri becomes fatigued: -4 to THACO, +4 penalty to AC, -8 movement modifier, -4 attack speed, -15 hit points for 30 seconds).
+-Gains Heaven's Touch by becoming the LightBringer(Heaven's Touch :a combination of Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle).
+-Bonus +1 to hit/damage for every 3 levels.
+-Bonus -1 to speed factor for every 4 levels.
+-Physical, elemental and  magic resistance improvements per level.
+
+-Apprentice: immune to all diseases,and cannot be slowed or hasted.
+-Expert: Immune to charm and poison.
+-Spartian: Immune to fear.
+-Morituri: Permanent protection from evil,+1 str/dex/con bonus,regenerate 1hp/sec.  
+-LightBringer: Immune to stun & blindness, +1 bonus attack per round,+1 str/dex/con bonus,regenerate 2hp/sec.
+
+Disadvantages:
+-Can only mastering weapons that comply with the Way of the Sword.
+-May not use missile weapons or bows.
+-May not use any magic items except weapons and boots.
+-May not use Lay on Hands ability.
+-May not cast priest spells.
+-May not turn undead.~
+
+@4 = ~Title change to Novice~
+@5 = ~Novice~
+
+@6 = ~Title change to Apprentice~
+@7 = ~Apprentice~
 	
-@7 = ~Title change to Expert~
-@8 = ~Expert~
+@8 = ~Title change to Expert~
+@9 = ~Expert~
 
-@9 = ~Title change to Spartian~
-@10 = ~Spartian~
+@10 = ~Title change to Spartian~
+@11 = ~Spartian~
 
-@11 = ~Title change to Morituri~
-@12 = ~Morituri~
+@12 = ~Title change to Morituri~
+@13 = ~Morituri~
 
-@13 = ~Title change to LightBringer~
-@14 = ~LightBringer~
+@14 = ~Title change to LightBringer~
+@15 = ~LightBringer~
 
-@15 = ~Armour of  Light~
-@16 = ~A combination of Kai and Berserker enrage Armour of Light provides maximum damage for the first 6 seconds plus +2 to THACO, -2 attack speed, -2AC, +4 movement modifier and immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points for 60 seconds. After that the Morituri becomes fatigued: -4 to THACO, +4 penalty to AC, -8 movement modifier, -4 attack speed, -15 hit points for 30 seconds~
+@16 = ~Armour of  Light~
+@17 = ~A combination of Kai and Berserker enrage Armour of Light provides maximum damage for the first 6 seconds plus +2 to THACO, -2 attack speed, -2AC, +4 movement modifier and immunity to death magic,charm,hold,fear,maze,imprisonment,stun,sleep,level drain,+15 hit points for 60 seconds. After that the Morituri becomes fatigued: -4 to THACO, +4 penalty to AC, -8 movement modifier, -4 attack speed, -15 hit points for 30 seconds~
 
-@17 = ~Heaven's Touch~
-@18 = ~A combination of Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle. ~
+@18 = ~Heaven's Touch~
+@19 = ~A combination of Mass Cure, Sunray, Nature's Beauty, Wing Buffet and Protection from Evil 10' radius spells inspired by Solafein's Moonrays and Moonfruit's Improved House Je'elat battle. ~
 
 @25 = ~NOVICE
 Immune to backstab
@@ -119,3 +146,7 @@ Gains Heaven's Touch~
 @33 = ~Soon my powers will return~
 
 @34 = ~Praise the Lord I am strong again~
+
+@35 = ~Install the Morituri as a warrior~
+
+@36 = ~Install the Morituri as a paladin~
