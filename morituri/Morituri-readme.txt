@@ -1,5 +1,5 @@
 Baldurs Gate II: SoA/ToB 
-Morituri Kit version 4.x
+Morituri Kit version 5.1
 By Aroc (aroc@otenet.gr)
 French version (the one you are using) by Deratiseur (the_deratiseur@hotmail.com)
 References fix by Deratiseur. (ready for BGT :) )
@@ -118,7 +118,9 @@ Version 5 (By Deratiseur)
                    * The paladin version now have correct "Detect evil" and "Protection from evil" 1x / lvl
                    * Fix the first "bonus to STR, DEX and CON": it wasn't cumulative. (the second from lvl 35 is cumulative)
                    * the scrip no longer use Dplayer2 or 3: it now use the character script. (less use of the engine, less lags on mega installs)
-
+				   
+Version 5.1 (By JohnBob)			   
+                   * Added Russian translation.
 
 
 5. FUTURE  CHANGES  

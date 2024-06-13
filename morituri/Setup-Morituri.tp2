@@ -39,6 +39,10 @@ LANGUAGE ~French (Traduit par Deratiseur)~
 	 ~French~
 	 ~Morituri/tra/French/Setup-Morituri.tra~
 
+LANGUAGE ~Russian (translated by Zloy-babay)~
+	 ~Russian~
+	 ~Morituri/tra/Russian/Setup-Morituri.tra~
+
 BEGIN @35 SUBCOMPONENT @1
 ADD_KIT ~morituri~ 
 
